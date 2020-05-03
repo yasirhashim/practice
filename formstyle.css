@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+.logo img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 43%;
+    margin: auto;
+}
+h1 {
+    color:#6B5ACD;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    margin: 11px;
+    text-decoration: underline;
+}
+.container{
+    background-color:#6B5ACD;
+    color: white;
+    flex-direction: column;
+    margin: auto;
+    display: block;
+    width: 830px;
+    justify-content: center;
+    flex-direction: column;
+}
+.form {
+    margin: auto;
+    display: flex;
+    width: 806px;
+    justify-content: center;
+    flex-direction: column;
+}
+.box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+}
+.box label {
+    color: white;
+    margin-left: 10px;
+    width: 150px;
+    font-size: 15px;
+}
+.m2{
+    margin-bottom: 30px;
+}
+.box input {
+    height: 17px;
+}
+.box span {
+    color: white;
+    margin-left: 7px;
+}
+.box textarea {
+    margin-left: 78px;
+}
+
+.m3 {
+    padding-left: 80px;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.box2, .box2 input {
+    padding-left: 68px;
+    height: 17px;
+    margin: 7px;
+}
+.box3{
+    padding-left: 161px;
+}
+
+th, td {
+            color: white;
+        }
+        .box4 label{
+            color: white;
+            margin-left: 10px;
+            width: 150px;
+            font-size: 15px;
+        }
+.allInput {
+    padding-left: 160px;
+}
+.box4 label {
+    margin-top: 12px;
+}
+
+.label2 {
+    padding: 25px;
+}
+
+#qualification {
+    margin: 2px;
+    display: flex;
+}
+#qualification .qb {
+    font-size: 15px;
+    /* border: 2px solid brown; */
+    padding: -23px;
+    margin: 16px 5px;
+    /* border-radius: 16px; */
+    /* background-color: #f2f2f2; */
+    margin-bottom: 5px;
+}
+
+#qualification .qd {
+    /* border: 2px solid brown; */
+    padding: -23px;
+    margin: 14px 5px;
+    /* border-radius: 16px; */
+    /* background-color: #f2f2f2; */
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.label5 label {
+    color: white;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+}
